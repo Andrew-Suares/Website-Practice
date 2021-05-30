@@ -33,6 +33,7 @@ h1 {
 	width: 90%;
 	max-width: var(--website-width);
 	margin: 0 auto;
+	border: 1px solid red;
 }
 
 .container-nav {
