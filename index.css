@@ -17,6 +17,13 @@ img {
 	max-width: 100%;
 	display: block;
 }
+/* !About me page image */
+.image-full {
+	max-height: 300px;
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 2em;
+}
 
 a {
 	color: #1792d2;
@@ -44,6 +51,10 @@ h3 {
 h1 {
 	font-size: 2rem;
 	margin: 0;
+}
+/* !About me titles */
+h3 {
+	color: #1792d2;
 }
 /* Header Subtitle */
 .subtitle {
@@ -77,6 +88,9 @@ h1 {
 .widget-recent-post-title {
 	font-size: 1rem;
 }
+.widget-recent-post-title {
+	color: #143774;
+}
 .widget-title {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
@@ -87,7 +101,6 @@ h1 {
 	width: 90%;
 	max-width: var(--website-width);
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 .container-flex {
